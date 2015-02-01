@@ -50,8 +50,9 @@ gi_append() {
 }
 
 show_usage() {
-    echo Wrong Input
-    # TODO: provide informative info
+    echo "usage: gi <types>"
+    echo "          [-a| -e] <types>"
+    echo "          [-u| -t| -l| -L]"
 }
 
 update_gi_list &
