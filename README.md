@@ -33,12 +33,12 @@ gi  <types>
 If multiple types are needed, you can seperate them with comma or space.  
 e.g. `osx,vim` `osx vim`
 
--a [types] - apeend new .gitignore content to .gitignore under the current directory  
--e [types] - export new .gitignore to the current directory (The old one will be replaced.)  
--L -  print `~/.gi_list` in alphabetical order  
--l -  print `~/.gi_list` in table format  
--u - update `~/.gi_list`  
--t - show the last modified time of `~/.gi_list`  
+-a [types]      apeend new .gitignore content to .gitignore under the current directory  
+-e [types]      export new .gitignore to the current directory (The old one will be replaced.)  
+-L              print `~/.gi_list` in alphabetical order  
+-l              print `~/.gi_list` in table format  
+-u              update `~/.gi_list`  
+-t              show the last modified time of `~/.gi_list`  
 
 # AUTHORS
 [Lee-W](https://github.com/Lee-W/)
