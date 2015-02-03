@@ -4,16 +4,21 @@ The function of `gi` provide a quick access to various .gitignore on gitignore.i
 
 This extension supports more functions than the original `gi`.
 
+For more introduction in Chinese.  
+Please refer to my blog http://lee-w-blog.logdown.com/posts/253323-gitignoreio
+
 # Installation
 ## Install
 ```
+git clone https://github.com/Lee-W/gi_extension && cd gi_extension
 sudo cp gi_extension.sh /usr/bin/gi
 ```
 You would also need to comment out the `gi` function in your shell config(e.g. ~/.zshrc, ~/.bashrc) if you had set up that.
 
 ## Uninstall
 ```
-sudo cp gi_extension.sh /usr/bin/gi
+git clone https://github.com/Lee-W/gi_extension && cd gi_extension
+sudo rm gi_extension.sh /usr/bin/gi
 ```
 
 # USAGE
