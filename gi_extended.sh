@@ -53,7 +53,19 @@ show_usage() {
     echo "usage: gi <types>"
     echo "          [-a| -e] <types>"
     echo "          [-u| -t| -l| -L]"
+    echo "          [-h]"
 }
+
+print_help_message() {
+    echo "-a [types]      apeend new .gitignore content to .gitignore under the current directory"
+    echo "-e [types]      export new .gitignore to the current directory (The old one will be replaced.)"
+    echo "-L              print ~/.gi_list in alphabetical order"
+    echo "-l              print ~/.gi_list in table format"
+    echo "-u              update ~/.gi_list"
+    echo "-t              show the last modified time of ~/.gi_list"
+    echo "-h              show help"
+}
+
 
 update_gi_list &
 if [[ $# -eq 0 ]]; then
@@ -91,6 +103,9 @@ else
             ;;
         -l)
             print_in_table_format
+            ;;
+        -h)
+            print_help_message
             ;;
         -*)
             echo No Such option

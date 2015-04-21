@@ -45,6 +45,7 @@ options | function
 -l          |    print `~/.gi_list` in table format  
 -u          |    update `~/.gi_list`  
 -t          |    show the last modified time of `~/.gi_list`  
+-h          |    show help
 
 # AUTHORS
 [Lee-W](https://github.com/Lee-W/)
