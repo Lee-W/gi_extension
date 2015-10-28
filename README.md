@@ -1,4 +1,9 @@
 # gi_extended
+
+### This repo has been deprecated.
+### This feature has been merged to [git-extras](https://github.com/tj/git-extras) as `git ignore-io`
+
+
 This is a ***non-offical*** extension for the command `gi` in [gitignore.io](https://www.gitignore.io)  
 The function of `gi` provide a quick access to various .gitignore on gitignore.io 
 
